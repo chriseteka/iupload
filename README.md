@@ -29,6 +29,10 @@ This is not a very detailed documentation here's what you should know about this
 * In same directory, place images of products you wish to upload, every image should end with line numbers to the stock they point from the stock upload file.
 
 
+* Package the application from the root with the command: `mvn assembly:assembly`, then goto the target folder and rename the jar file: `iupload-1.0-SNAPSHOT-jar-with-dependencies.jar` to `iupload.jar`
+  * This is the jar file of interest. `iupload.jar` or whatever you choose to call it.
+
+
 * If you intend to start the jar file, then run `java -jar iupload.jar "/path-to-file" true`
 
 
